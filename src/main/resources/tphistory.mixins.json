@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "tphistory.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "CommandsMixin",
+    "ServerGamePacketListenerImplMixin",
+    "TeleportCommandMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
